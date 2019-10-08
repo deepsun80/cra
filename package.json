@@ -1,6 +1,7 @@
 {
   "name": "cra",
   "version": "0.1.0",
+  "homepage": "https://gracious-brown-2e14b3.netlify.com",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
