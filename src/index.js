@@ -8,7 +8,7 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <Router>
-    <Route path={process.env.PUBLIC_URL} component={App} />
+    <Route path={`${process.env.PUBLIC_URL}/app`} component={App} />
   </Router>,
   document.getElementById("root")
 );

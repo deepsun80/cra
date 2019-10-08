@@ -1,7 +1,7 @@
 {
   "name": "cra",
   "version": "0.1.0",
-  "homepage": "https://hungry-montalcini-7dd871.netlify.com/app",
+  "homepage": "https://hungry-montalcini-7dd871.netlify.com/app/",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
