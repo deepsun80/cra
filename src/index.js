@@ -2,13 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { Route } from "react-router";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Router } from "react-router";
+import { createBrowserHistory } from "history";
 import * as serviceWorker from "./serviceWorker";
 
+export const history = createBrowserHistory({
+  basename: process.env.PUBLIC_URL
+});
+
 ReactDOM.render(
-  <Router>
-    <Route path={`${process.env.PUBLIC_URL}/app`} component={App} />
+  <Router history={history}>
+    <Route exact path="/" component={App} />
   </Router>,
   document.getElementById("root")
 );
