@@ -1,7 +1,6 @@
 {
   "name": "cra",
   "version": "0.1.0",
-  "homepage": "http://deepsun80.github.io/cra",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
